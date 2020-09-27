@@ -36,22 +36,7 @@ const Form = styled.form`
   text-align: center;
 `;
 
-const Button = styled.button`
-  width: 100px;
-  border-radius: 5px;
-  padding: 10px;
-  height: 40px;
-  color: black;
-  background: transparent;
-  outline: none;
-  color: ${props => props.theme.colors.primary};
-  border: 1px solid ${props => props.theme.colors.primary};
-  input {
-    height: 0;
-    width: 0;
-    opacity: 0;
-  }
-`;
+
 
 const Error = styled.div`
   color: ${props => props.theme.colors.primary};

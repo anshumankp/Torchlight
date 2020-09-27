@@ -18,17 +18,6 @@ const Header = styled.div`
   }
 `;
 
-const FlashLight = styled.img`
-  height: 40px;
-  width: 50px;
-  display: inline-block;
-  transform: rotateX(180);
-  background: transparent;
-  transform: rotate(-180deg);
-  filter: invert(90%);
-  padding: 5px;
-`;
-
 const Title = () => {
   return (
     <Header>
